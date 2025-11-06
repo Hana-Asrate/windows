@@ -94,7 +94,7 @@ skipInstall() {
           fi
         fi
 
-        info "Detected that $method, a backup of your previous installation will be saved..."
+        info "Detected that $method, a backup of your previoust installation will be saved..."
         ! backup "$STORAGE/$previous" && error "Backup failed!"
 
         return 1
